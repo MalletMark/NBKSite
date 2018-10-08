@@ -1,0 +1,40 @@
+{
+    "deploy.reloaded": {
+        "packages": [
+            {
+                "name": "NBK Deploy",
+                "description": "publish files only",
+                "files": [
+                    "/bin/Release/netcoreapp2.1/publish/**"
+                ],
+                
+                "button": {
+                    "text": "Deploy",
+                    "tooltip": "Click here to deploy to the target...",
+
+                    "targets": [ "Vultr" ]
+                },
+
+                "commands": {
+                    
+                }
+            }
+        ],
+        "targets": [
+            {
+                "type": "sftp",
+                "name": "Vultr",
+                "description": "A SFTP folder",
+
+                "dir": "/var/aspnetcore/nbksite",
+                "host": "104.238.130.83",
+                "user": "root", "password": "9f)RM}qpe9e*sNM2",
+
+                "commands": {
+                    "connected": [ "rm -r /var/aspnetcore/nbksite/publish" ],
+                    "uploaded": [ "systemctl restart nbksite.service" ]
+                }
+            }
+        ]
+    }
+}
