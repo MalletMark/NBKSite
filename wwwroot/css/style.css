@@ -149,6 +149,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
 }
 
+/* Buttons */
+
+.btn-apply {
+  color: black;
+  background: #f1c23b;
+  box-shadow: 4px 5px 4px 0px #212121;
+  transition: 0.3s;
+}
+
+.btn-apply:hover {
+  opacity: 0.6;
+}
+
 /* Paragraph & Typographic */
 
 p {
@@ -384,11 +397,12 @@ a:before, a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-  background-image: url('../img/bg/divider1.jpg')
+  background-image: url('../img/bg/ms_thin_2.jpg')
 }
 
 .divider2 {
-  background-image: url('../img/bg/divider2.jpg')
+  background-image: url('../img/bg/ms_thina_2.jpg');
+  border-bottom: none;
 }
 
 .divider3 {
