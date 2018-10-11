@@ -17,5 +17,33 @@ namespace NBKSite.Controllers
             Index model = new Index();
             return View(model);
         }
+
+        [HttpGet]
+        public ActionResult BingoBook()
+        {
+            BingoBook model = new BingoBook();
+            return View(model);
+        }
+
+        [HttpGet]
+        public ActionResult TreasureList()
+        {
+            BingoBook model = new BingoBook();
+            return View("BingoBook", model);
+        }
+
+        [HttpGet]
+        public ActionResult Schedules()
+        {
+            BingoBook model = new BingoBook();
+            return View("BingoBook", model);
+        }
+
+        [HttpGet]
+        public ActionResult Members()
+        {
+            BingoBook model = new BingoBook();
+            return View("BingoBook", model);
+        }
     }
 }

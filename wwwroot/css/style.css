@@ -9,7 +9,11 @@
    Base Styles and Bootstrap Modifications
    ========================================================================== */
 
-html, button, input, select, textarea {
+html,
+button,
+input,
+select,
+textarea {
   color: #222;
 }
 
@@ -69,7 +73,8 @@ textarea {
    General styles
    ========================================================================== */
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -113,7 +118,8 @@ body {
   border: 0px solid transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
   background-color: #16a085;
   color: white;
 }
@@ -143,7 +149,12 @@ a img {
 
 /* Titles */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway";
   font-weight: 300;
   color: #333;
@@ -151,24 +162,43 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Buttons */
 
-.btn-apply{
-  border:0px solid #ffc826;-webkit-box-shadow: #B4B5B5 2px 2px 2px  ;-moz-box-shadow: #B4B5B5 2px 2px 2px ; box-shadow: #B4B5B5 2px 2px 2px  ; -webkit-border-radius: 16px; -moz-border-radius: 16px;border-radius: 16px;font-size:26px;font-family:helvetica, sans-serif; padding: 14px 14px 14px 14px; text-decoration:none; display:inline-block;text-shadow: 1px 1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
-  background-color: #ffd65e; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+.btn-apply {
+  border: 0px solid #ffc826;
+  -webkit-box-shadow: #B4B5B5 2px 2px 2px;
+  -moz-box-shadow: #B4B5B5 2px 2px 2px;
+  box-shadow: #B4B5B5 2px 2px 2px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 26px;
+  font-family: helvetica, sans-serif;
+  padding: 14px 14px 14px 14px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #ffd65e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
   background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
   background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
   background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
   background-image: -o-linear-gradient(top, #ffd65e, #febf04);
-  background-image: linear-gradient(to bottom, #ffd65e, #febf04);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
- }
- 
- .btn-apply:hover{
-  border:1px solid #f7b800;
-  background-color: #ffc92b; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#E0B62B));
+  background-image: linear-gradient(to bottom, #ffd65e, #febf04);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffd65e, endColorstr=#febf04);
+}
+
+.btn-apply:hover {
+  border: 1px solid #f7b800;
+  background-color: #ffc92b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#E0B62B));
   background-image: -webkit-linear-gradient(top, #ffc92b, #E0B62B);
   background-image: -moz-linear-gradient(top, #ffc92b, #E0B62B);
   background-image: -ms-linear-gradient(top, #ffc92b, #E0B62B);
   background-image: -o-linear-gradient(top, #ffc92b, #E0B62B);
-  background-image: linear-gradient(to bottom, #ffc92b, #E0B62B);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#E0B62B);  }
+  background-image: linear-gradient(to bottom, #ffc92b, #E0B62B);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffc92b, endColorstr=#E0B62B);
+}
 
 /* Paragraph & Typographic */
 
@@ -208,7 +238,8 @@ small {
   font-size: 12px;
 }
 
-blockquote, blockquote p {
+blockquote,
+blockquote p {
   line-height: 28px;
   color: #999;
   font-weight: 300;
@@ -254,13 +285,15 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #c0392b;
   text-decoration: none;
   outline: 0;
 }
 
-a:before, a:after {
+a:before,
+a:after {
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -531,7 +564,8 @@ a:before, a:after {
   transition: transform 0.4s;
 }
 
-.mask figure:hover img, .mask figure.cs-hover img {
+.mask figure:hover img,
+.mask figure.cs-hover img {
   -webkit-transform: translateY(-30px);
   -moz-transform: translateY(-30px);
   -ms-transform: translateY(-30px);
@@ -553,7 +587,8 @@ a:before, a:after {
   transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-.mask figure:hover figcaption, .mask figure.cs-hover figcaption {
+.mask figure:hover figcaption,
+.mask figure.cs-hover figcaption {
   opacity: 1;
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -600,7 +635,8 @@ a:before, a:after {
    MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width:1050px), screen and (max-device-width:1050px) {
+@media screen and (max-width:1050px),
+screen and (max-device-width:1050px) {
   body .header {
     background-attachment: scroll;
   }
@@ -618,6 +654,7 @@ a:before, a:after {
   #headerwrap h1 {
     font-size: 80px;
   }
+
   #headerwrap p {
     font-size: 30px;
     line-height: 38px;
@@ -630,13 +667,12 @@ a:before, a:after {
   padding: 40px 0;
 }
 
-.contact-form {}
-
 .contact-form label {
   color: #999;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px 12px;
   border-radius: 0;
   box-shadow: none;
