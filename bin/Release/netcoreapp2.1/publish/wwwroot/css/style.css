@@ -397,11 +397,11 @@ a:before, a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-  background-image: url('../img/bg/ms_thin_2.jpg')
+  background-image: url('../img/bg/pvp_thin_2.jpg')
 }
 
 .divider2 {
-  background-image: url('../img/bg/ms_thina_2.jpg');
+  background-image: url('../img/bg/ms_thin_2.jpg');
   border-bottom: none;
 }
 
